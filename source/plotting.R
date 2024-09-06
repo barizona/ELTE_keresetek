@@ -96,3 +96,6 @@ for(i in Karok) {
   }
 }
 rm(i, j, Max)
+
+# insert a terminal command to merge pdf-s
+system("pdftk output/*.pdf output output/ELTE_keresetek.pdf")
